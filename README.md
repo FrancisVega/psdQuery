@@ -14,3 +14,10 @@ $$("textLayers").filter(function(){
     return $$(this).opacity() < 10;
 }).hide();
 ```
+
+````
+/* Renombra las capas de smartObjects */
+$$("textLayers").each(function(idx){
+    $$(this).rename("Smart Object Layer number " + idx);
+});
+```
