@@ -1,9 +1,13 @@
 # psdQuery
 Javascript library to query Photoshop documents
 
+# Dependencias
+JSONActionManager
+http://www.tonton-pixel.com/blog/json-photoshop-scripting/json-action-manager/
+
 # Ejemplos
 
-````
+````javascript
 /* Selecciona todas las capas y las oculta */
 $$("*").hide()
 ```
