@@ -21,7 +21,7 @@ $$("textLayers").filter(function(){
 
 ````javascript
 /* Renombra las capas de smartObjects */
-$$("textLayers").each(function(idx){
+$$("smartObjects").each(function(idx){
     $$(this).rename("Smart Object Layer number " + idx);
 });
 ```
