@@ -14,14 +14,14 @@ $$("*").hide()
 
 ````javascript
 /* Oculta todas las capas de texto con menos del 10% de opacidad */
-$$("textLayers").filter(function(){
+$$("%textLayers%").filter(function(){
     return $$(this).opacity() < 10;
 }).hide();
 ```
 
 ````javascript
 /* Renombra las capas de smartObjects */
-$$("smartObjects").each(function(idx){
+$$("%smartObjects%").each(function(idx){
     $$(this).rename("Smart Object Layer number " + idx);
 });
 ```
